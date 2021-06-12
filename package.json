@@ -1,0 +1,17 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "express server for testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --require esm",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "my-encrypter-middleware": "^1.0.6"
+  }
+}
